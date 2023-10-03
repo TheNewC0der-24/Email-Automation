@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 
 import Form from "../Components/Form";
 
@@ -13,13 +13,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <Container>
         <Typography variant='h4' gutterBottom>
           Email Outreach
         </Typography>
 
         <Form />
-      </main>
+      </Container>
 
 
     </>

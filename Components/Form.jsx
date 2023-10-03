@@ -71,6 +71,7 @@ const Form = () => {
                     <InputLabel sx={{ color: "#dee2e6" }} htmlFor="email">Email</InputLabel>
                     <TextField
                         size="small"
+                        fullWidth
                         sx={{
                             mt: 0.5,
                             "& .MuiOutlinedInput-root": {
@@ -93,6 +94,7 @@ const Form = () => {
                     <InputLabel sx={{ color: "#dee2e6" }} htmlFor="subject">Subject</InputLabel>
                     <TextField
                         size="small"
+                        fullWidth
                         sx={{
                             mt: 0.5,
                             "& .MuiOutlinedInput-root": {
